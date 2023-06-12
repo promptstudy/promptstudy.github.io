@@ -6,7 +6,7 @@ A book about Prompt Engineering in LLMs.
 ![img.png](img.png)
 
 - [前言](./book/0%20前言.pdf)
-- [简介](./book/abstract.html)
+- [简介](./book/0%20内容简介.pdf)
 - [1 高级提示技巧](./book/1.高级提示技巧.pdf)
 - [2 迭代和改进提示](./book/2.迭代和改进提示.pdf)
 - [3 评估和测试提示](./book/3.评估和测试提示.pdf)
