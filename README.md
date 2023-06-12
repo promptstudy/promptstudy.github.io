@@ -3,8 +3,6 @@ A book about Prompt Engineering in LLMs.
 
 [本书亚马逊国际出版。](https://www.amazon.com/dp/B0C6FGQR3G)
 
-![img.png](img.png)
-
 - [前言](./book/0%20前言.pdf)
 - [简介](./book/0%20内容简介.pdf)
 - [1 高级提示技巧](./book/1.高级提示技巧.pdf)
@@ -21,4 +19,5 @@ A book about Prompt Engineering in LLMs.
 - [12 后记](./book/12.后记.pdf)
 - [13 参考资料](./book/13.参考资料.pdf)
 
+![img.png](img.png)
 

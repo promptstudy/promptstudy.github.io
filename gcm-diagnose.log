@@ -1,0 +1,190 @@
+﻿Diagnose log at 2023-06-12T04:04:02Z
+
+AppPath: C:\Program Files\Git\mingw64\bin\git-credential-manager.exe
+InstallDir: C:\Program Files\Git\mingw64\bin\
+Version: 2.1.2
+
+------------
+Diagnostic: Environment
+Skipped: False
+Success: True
+Exception: None
+Log:
+OSType: Windows
+OSVersion: 10.0 (build 22621)
+Reading environment variables... OK
+ Variables:
+TMPDIR=C:\Users\Administrator\AppData\Local\Temp
+DriverData=C:\Windows\System32\Drivers\DriverData
+IDEA_INITIAL_DIRECTORY=C:\Users\Administrator\Desktop\G
+MSYSTEM=MINGW64
+CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files
+OneDrive=C:\Users\Administrator\OneDrive
+PyCharm=C:\Program Files\JetBrains\PyCharm 2021.3\bin;
+SESSIONNAME=Console
+TMP=C:\Users\Administrator\AppData\Local\Temp
+HOME=C:\Users\Administrator
+PROCESSOR_REVISION=a502
+PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.CPL
+HOMEPATH=\Users\Administrator
+SystemDrive=C:
+USERDOMAIN_ROAMINGPROFILE=RUDYFISH
+TEMP=C:\Users\Administrator\AppData\Local\Temp
+LOCALAPPDATA=C:\Users\Administrator\AppData\Local
+PUBLIC=C:\Users\Public
+TERM=xterm-256color
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 165 Stepping 2, GenuineIntel
+COMPUTERNAME=RUDYFISH
+ProgramData=C:\ProgramData
+USERDOMAIN=RUDYFISH
+ProgramFiles(x86)=C:\Program Files (x86)
+TERMINAL_EMULATOR=JetBrains-JediTerm
+PROCESSOR_LEVEL=6
+NUMBER_OF_PROCESSORS=16
+WXDRIVE_START_ARGS=--wxdrive-setting=0 --disable-gpu --disable-software-rasterizer --enable-features=NetworkServiceInProcess
+PSModulePath=C:\Users\Administrator\Documents\WindowsPowerShell\Modules;C:\Program Files\WindowsPowerShell\Modules;C:\windows\system32\WindowsPowerShell\v1.0\Modules
+CommonProgramFiles=C:\Program Files (x86)\Common Files
+USERPROFILE=C:\Users\Administrator
+PLINK_PROTOCOL=ssh
+COLORTERM=truecolor
+ProgramW6432=C:\Program Files
+ProgramFiles=C:\Program Files (x86)
+GIT_TRACE2_PARENT_SID=bf74015e-b889-4f3e-bc8a-b1d6aa452c59
+SystemRoot=C:\windows
+TERM_SESSION_ID=f26436b1-ee4c-49aa-98f0-912db398961e
+LC_CTYPE=C.UTF-8
+CommonProgramW6432=C:\Program Files\Common Files
+LOGONSERVER=\\RUDYFISH
+EFC_8248=1
+GIT_EXEC_PATH=C:/Program Files/Git/mingw64/libexec/git-core
+__INTELLIJ_COMMAND_HISTFILE__=C:\Users\Administrator\AppData\Local\JetBrains\PyCharm2021.3\terminal\history\book_prompt-history
+APPDATA=C:\Users\Administrator\AppData\Roaming
+HOMEDRIVE=C:
+USERNAME=RudyFish
+PROCESSOR_ARCHITEW6432=AMD64
+PROCESSOR_ARCHITECTURE=x86
+OS=Windows_NT
+ComSpec=C:\windows\system32\cmd.exe
+Path=C:/Program Files/Git/mingw64/libexec/git-core;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\Administrator\bin;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Users\Administrator\AppData\Local\Programs\Python\Python311;C:\Users\Administrator\AppData\Local\Programs\Python\Python311\Scripts;C:\Program Files\Git\cmd;E:\PycharmProjects\Auto-GPT-ZH\venv\Lib\site-packages\numpy\core;C:\Program Files\PuTTY\;E:\dev\ffmpeg-6.0-essentials_build\bin;C:\Users\Administrator\node_modules;C:\Program Files\nodejs\;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\PyCharm 2021.3\bin;;C:\Users\Administrator\AppData\Local\Programs\Python\Python311;C:\Users\Administrator\AppData\Local\Programs\Python\Python311\Scripts;E:\PycharmProjects\Auto-GPT-ZH\venv\Lib\site-packages\numpy\core;E:\dev\ffmpeg-6.0-essentials_build\bin;C:\Users\Administrator\node_modules;C:\Users\Administrator\AppData\Roaming\npm
+windir=C:\windows
+ALLUSERSPROFILE=C:\ProgramData
+
+
+------------
+Diagnostic: File system
+Skipped: False
+Success: True
+Exception: None
+Log:
+Temporary directory is 'C:\Users\Administrator\AppData\Local\Temp\'...
+Checking basic file I/O...
+Writing to temporary file 'C:\Users\Administrator\AppData\Local\Temp\54c14d0c95254a93495fb55a'... OK
+Reading from temporary file 'C:\Users\Administrator\AppData\Local\Temp\54c14d0c95254a93495fb55a'... OK
+Deleting temporary file 'C:\Users\Administrator\AppData\Local\Temp\54c14d0c95254a93495fb55a'... OK
+Testing IFileSystem instance...
+UserHomePath: C:\Users\Administrator
+UserDataDirectoryPath: C:\Users\Administrator\.gcm
+GetCurrentDirectory(): E:\dev\githubProjects\book_prompt
+
+------------
+Diagnostic: Networking
+Skipped: False
+Success: True
+Exception: None
+Log:
+Checking networking and HTTP stack...
+Creating HTTP client... OK
+IsNetworkAvailable: True
+Sending HEAD request to http://example.com... OK
+Sending HEAD request to https://example.com... OK
+Acquiring free TCP port... OK
+Testing local HTTP loopback connections...
+Creating new HTTP listener for http://localhost:65392/... OK
+Waiting for loopback connection... OK
+Writing response... OK
+Waiting for response data... OK
+Loopback connection data OK
+
+------------
+Diagnostic: Git
+Skipped: False
+Success: True
+Exception: None
+Log:
+Getting Git version... OK
+Git version is '2.41.0.windows.1'
+Locating current repository... OK
+Git repository at 'E:/dev/githubProjects/book_prompt/.git'
+Listing all Git configuration... OK
+Git configuration:
+file:C:/Program Files/Git/etc/gitconfig	diff.astextplain.textconv=astextplain
+file:C:/Program Files/Git/etc/gitconfig	filter.lfs.clean=git-lfs clean -- %f
+file:C:/Program Files/Git/etc/gitconfig	filter.lfs.smudge=git-lfs smudge -- %f
+file:C:/Program Files/Git/etc/gitconfig	filter.lfs.process=git-lfs filter-process
+file:C:/Program Files/Git/etc/gitconfig	filter.lfs.required=true
+file:C:/Program Files/Git/etc/gitconfig	http.sslbackend=openssl
+file:C:/Program Files/Git/etc/gitconfig	http.sslcainfo=C:/Program Files/Git/mingw64/etc/ssl/certs/ca-bundle.crt
+file:C:/Program Files/Git/etc/gitconfig	core.autocrlf=true
+file:C:/Program Files/Git/etc/gitconfig	core.fscache=true
+file:C:/Program Files/Git/etc/gitconfig	core.symlinks=false
+file:C:/Program Files/Git/etc/gitconfig	pull.rebase=false
+file:C:/Program Files/Git/etc/gitconfig	credential.helper=manager
+file:C:/Program Files/Git/etc/gitconfig	credential.https://dev.azure.com.usehttppath=true
+file:C:/Program Files/Git/etc/gitconfig	init.defaultbranch=master
+file:C:/Users/Administrator/.gitconfig	user.email=925974870@qq.com
+file:C:/Users/Administrator/.gitconfig	user.name=wuspine
+file:C:/Users/Administrator/.gitconfig	filter.lfs.clean=git-lfs clean -- %f
+file:C:/Users/Administrator/.gitconfig	filter.lfs.smudge=git-lfs smudge -- %f
+file:C:/Users/Administrator/.gitconfig	filter.lfs.process=git-lfs filter-process
+file:C:/Users/Administrator/.gitconfig	filter.lfs.required=true
+file:C:/Users/Administrator/.gitconfig	credential.helper=
+file:C:/Users/Administrator/.gitconfig	credential.helper=C:/Program\ Files/Git/mingw64/bin/git-credential-manager.exe
+file:.git/config	core.repositoryformatversion=0
+file:.git/config	core.filemode=false
+file:.git/config	core.bare=false
+file:.git/config	core.logallrefupdates=true
+file:.git/config	core.symlinks=false
+file:.git/config	core.ignorecase=true
+file:.git/config	submodule.active=.
+file:.git/config	remote.origin.url=https://github.com/promptstudy/promptstudy.github.io.git
+file:.git/config	remote.origin.fetch=+refs/heads/*:refs/remotes/origin/*
+file:.git/config	branch.main.remote=origin
+file:.git/config	branch.main.merge=refs/heads/main
+file:.git/config	lfs.repositoryformatversion=0
+
+
+------------
+Diagnostic: Credential storage
+Skipped: False
+Success: True
+Exception: None
+Log:
+ICredentialStore instance is of type: CredentialStore
+Writing test credential... OK
+Reading test credential... OK
+Deleting test credential... OK
+
+------------
+Diagnostic: Microsoft authentication (AAD/MSA)
+Skipped: False
+Success: True
+Exception: None
+Log:
+Broker is not enabled.
+Flow type is: Auto
+Gathering MSAL token cache data... OK
+CacheDirectory: C:\Users\Administrator\AppData\Local\.IdentityService
+CacheFileName: msal.cache
+CacheFilePath: C:\Users\Administrator\AppData\Local\.IdentityService\msal.cache
+Creating cache helper... OK
+Verifying MSAL token cache persistence... OK
+
+------------
+Diagnostic: GitHub API
+Skipped: False
+Success: True
+Exception: None
+Log:
+Using 'https://github.com/' as API target.
+Querying '/meta' endpoint... OK
+
